@@ -1,7 +1,7 @@
 Summary: A tool for determining compilation options
 Name: pkgconfig
 Version: 0.23
-Release: 9.1%{?dist}
+Release: 9.2%{?dist}
 Epoch: 1
 License: GPLv2+
 URL: http://pkgconfig.freedesktop.org
@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/aclocal/*
 
 %changelog
+* Thu Jul 7  2011 Mike Adams <shalkie@gooseproject.org> - 1:0.23-9.2
+- Rebuilt for GoOSe Linux 6
+
 * Mon Nov 30 2009 Dennis Gregorovic <dgregor@redhat.com> - 1:0.23-9.1
 - Rebuilt for RHEL 6
 
